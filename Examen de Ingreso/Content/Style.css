@@ -1,0 +1,44 @@
+﻿:root {
+    --gris: #444444;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+}
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    width: min(90%,120rem);
+    margin: 0 auto;
+}
+
+.formulario {
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+.campo {
+
+    margin-bottom: 2rem;
+}
+
+.campo__label {
+
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--gris);
+}
